@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+  <!-- HTML elements for the navbar-->
+    <div class="topnav">
+        <a href="Home.htm">
+          <!--Company Logo-->
+            <img src="fiserv.png" alt="ahhh" height="20" width ="40">
+        </a>
+        <form action="Home.htm">
+            <input type="text" id = "cid" placeholder="Search" size="8" class = linp >
+        </form>
+        <a href="">Applications</a>
+        <a href="">Favorites</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">42069DANIEL <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-content">
+              <a href="#">Account</a>
+              
+              <a href="#">Sign out</a>
+            </div>
+        </div>
+
+        <p style="float: right;">DEVD</p>
+        <!-- Cretaes a dropdown menu-->
+        <div class="dropdown">
+            <button class="dropbtn">FS1
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">FS2</a>
+              <a href="#">FS3</a>
+            </div>
+        </div>
+    </div>
+    <!--Creates div to house th elements, syted to put them in the center-->
+    <div class="maindiv">
+      <div class="secdiv">
+      <!--Creates dropdowns for users to select a data type data-->
+    <div>
+        <select name="email" id="drop1" class="drop"  style="margin-right: 250px">
+          <!-- Adds opyions to drop down menu-->
+          <option value="Plain Text"> Plain Text</option>
+          <option value="ASCII">ASCII </option>
+          <option value="Hex"> Hex</option>
+          <option value="Binary">Binary </option>
+        </select>
+        <select name="email" id="drop2" class="drop">
+          <option value="Plain Text"> Plain Text</option>
+          <option value="ASCII">ASCII </option>
+          <option value="Hex"> Hex</option>
+          <option value="Binary">Binary </option>
+        </select>
+    </div>
+    <!--Creates boxes for the user to eneter their desired data-->
+    <div>
+        <textarea   id="inp1" class="inpbox" style="margin-right: 250px;"  ></textarea>
+        <textarea    id="inp2" class="inpbox"  ></textarea>
+    </div>
+    <!-- Button to run the script that will translate the data-->
+    <input type="submit" class="runbut">
+  </div>
+</div>
+    <script src ="script.js"></script>
+    
+</body>
+</html>

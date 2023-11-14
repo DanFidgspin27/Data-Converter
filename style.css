@@ -1,0 +1,136 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255,102,0);
+    width: 100%;
+    align-items: center;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top: 9px;
+}
+
+.topnav form {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav p{
+    color: white;
+    margin-top: 19px;
+}
+
+.list{
+    margin-left: 10px;
+    z-index: -1;
+}
+
+.list a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.dropdown {
+    margin-top: 3px;
+    float: right;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown {
+    margin-top: 3px;
+    float: right;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.maindiv{
+    margin-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.secdiv{
+    display: block;
+    
+}
+
+.drop{
+    width: 408px;
+    height: 50px;
+}
+
+.inpbox{
+   width: 403px; 
+   height: 550px;
+   overflow:visible;
+   font-size: 18PX;
+}
+
+.runbut{
+    margin-top: 50px;
+    margin-left: 500px;
+    background-color: royalblue;
+    color: white;
+    border-color: transparent;
+    height: 50px;
+    width: 8%;
+    font-size: 21px;
+}
+
+.drop{
+    font-size: 20px;
+}
